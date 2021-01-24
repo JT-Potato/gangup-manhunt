@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "4991d250-ad32-4935-ba0e-415c5e1b6d9c",
+    "name": "JT_potato",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

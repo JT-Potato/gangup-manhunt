@@ -16,7 +16,7 @@ When increasing versions, disable old datapacks.
 
 # Changelog
 ## Version 2
-- Added 'Dream hacks': Increases the chances of blaze rods and ender pearls from piglin bartering. Endermen will also drop 2 pearls 100% of the time. (Status: Being worked on)
+- Added 'Dream hacks': Increases the chances of blaze rods (100%) and ender pearls from piglin bartering (10%). Endermen will also drop 2 pearls 100% of the time, and Iron golems drop between 5-10 iron.
 - Added scoreboard which indicates the team of each player (Status: being worked on)
 
 ## Version 1
