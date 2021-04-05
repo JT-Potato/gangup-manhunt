@@ -1,101 +1,174 @@
-[16:55:47] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:55:48] [main/INFO]: Found new data pack file/manhunt_v1, loading it automatically
-[16:55:48] [main/INFO]: Found new data pack file/manhunt_v2, loading it automatically
-[16:55:48] [main/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v1, manhunt_v2
-[16:55:50] [Worker-Main-2/INFO]: Loaded 7 recipes
-[16:55:53] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[16:55:53] [Server thread/INFO]: Loading properties
-[16:55:53] [Server thread/INFO]: This server is running Tuinity version git-Tuinity-"d3ee222" (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[16:55:53] [Server thread/INFO]: Debug logging is disabled
-[16:55:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:55:53] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:55:53] [Server thread/INFO]: Default game type: SURVIVAL
-[16:55:53] [Server thread/INFO]: Generating keypair
-[16:55:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:55:53] [Server thread/INFO]: Using default channel type
-[16:55:53] [Server thread/INFO]: Tuinity: Using Java 11 compression from Velocity.
-[16:55:53] [Server thread/INFO]: Tuinity: Using Java cipher from Velocity.
-[16:55:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:55:54] [Server thread/INFO]: Preparing level "world"
-[16:55:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:55:55] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[16:55:55] [Server thread/INFO]: Time elapsed: 837 ms
-[16:55:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:55:55] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[16:55:55] [Server thread/INFO]: Time elapsed: 149 ms
-[16:55:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:55:56] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[16:55:56] [Server thread/INFO]: Time elapsed: 567 ms
-[16:55:56] [Server thread/INFO]: Running delayed init tasks
-[16:55:56] [Server thread/INFO]: Done (3.242s)! For help, type "help"
-[16:55:56] [Server thread/INFO]: Timings Reset
-[16:56:48] [User Authenticator #1/INFO]: UUID of player JT_potato is 4991d250-ad32-4935-ba0e-415c5e1b6d9c
-[16:56:48] [Server thread/INFO]: JT_potato joined the game
-[16:56:49] [Server thread/INFO]: JT_potato[/127.0.0.1:55722] logged in with entity id 191 at ([world]-144.5, 66.0, 58.5)
-[16:57:39] [Server thread/INFO]: Made JT_potato a server operator
-[16:57:50] [Server thread/INFO]: JT_potato issued server command: /gamemode creative
-[16:57:50] [Server thread/INFO]: [JT_potato: Set own game mode to Creative Mode]
-[16:57:59] [Server thread/INFO]: JT_potato has made the advancement [Ice Bucket Challenge]
-[16:58:30] [Server thread/INFO]: JT_potato has made the advancement [We Need to Go Deeper]
-[16:59:04] [Server thread/INFO]: JT_potato has made the advancement [Oh Shiny]
-[17:00:04] [Server thread/INFO]: JT_potato issued server command: /enchant @s minecraft:sharpness 5
-[17:00:04] [Server thread/INFO]: [JT_potato: Applied enchantment Sharpness V to JT_potato's item]
-[17:00:11] [Server thread/INFO]: JT_potato has made the advancement [Monster Hunter]
-[17:02:34] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
-[17:02:34] [Server thread/INFO]: [JT_potato: Reloading!]
-[17:02:35] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v1, manhunt_v2
-[17:02:38] [Server thread/WARN]: JT_potato moved too quickly! -2.157791637386884,1.2491870787446828,9.858858298911027
-[17:02:38] [Server thread/WARN]: JT_potato moved too quickly! -2.2347531149206503,0.3976330585252299,9.762630086378806
-[17:02:38] [Server thread/WARN]: JT_potato moved too quickly! -2.1574626934778234,0.7019498859827706,9.742782990174156
-[17:02:38] [Server thread/WARN]: JT_potato moved too quickly! -2.20601218341211,0.6235498844568923,9.738351577671363
-[17:02:38] [Server thread/WARN]: JT_potato moved too quickly! -2.1574582451284883,0.7019498859827706,9.739582505815864
-[17:02:38] [Server thread/WARN]: JT_potato moved too quickly! -2.2061775362568543,0.6235498844568923,9.74128161408128
-[17:02:38] [Server thread/WARN]: JT_potato moved too quickly! -2.1575107748337867,0.7019498859827706,9.74124985685285
-[17:02:39] [Server thread/WARN]: JT_potato moved too quickly! -2.2061775362568543,0.6235498844568923,9.74128161408128
-[17:02:39] [Server thread/WARN]: JT_potato moved too quickly! -2.1575107748337867,0.7019498859827706,9.74124985685285
-[17:02:39] [Server thread/WARN]: JT_potato moved too quickly! -2.2061775362568543,0.6235498844568923,9.74128161408128
-[17:02:39] [Server thread/WARN]: JT_potato moved too quickly! -2.1575107748337867,0.7019498859827706,9.74124985685285
-[17:02:39] [Server thread/WARN]: JT_potato moved too quickly! -2.2061775362568543,0.6235498844568923,9.74128161408128
-[17:02:39] [Server thread/WARN]: JT_potato moved too quickly! -2.1575107748337867,0.7019498859827706,9.74124985685285
-[17:02:39] [Server thread/INFO]: Loaded 7 recipes
-[17:02:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7053ms or 141 ticks behind
-[17:05:03] [Server thread/INFO]: JT_potato issued server command: /give @s minecraft:command_block
-[17:05:03] [Server thread/INFO]: [JT_potato: Gave 1 [Command Block] to JT_potato]
-[17:09:45] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
-[17:09:45] [Server thread/INFO]: [JT_potato: Reloading!]
-[17:09:45] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v1, manhunt_v2
-[17:09:47] [Server thread/INFO]: Loaded 7 recipes
-[17:10:31] [Server thread/INFO]: JT_potato issued server command: /loot give @a loot minecraft:entities/enderman\
-[17:10:33] [Server thread/INFO]: JT_potato issued server command: /loot give @a loot minecraft:entities/enderman
-[17:10:36] [Server thread/INFO]: JT_potato issued server command: /loot give @a loot minecraft:entities/enderman
-[17:10:37] [Server thread/INFO]: JT_potato issued server command: /loot give @a loot minecraft:entities/enderman
-[17:10:37] [Server thread/INFO]: JT_potato issued server command: /loot give @a loot minecraft:entities/enderman
-[17:10:38] [Server thread/INFO]: JT_potato issued server command: /loot give @a loot minecraft:entities/enderman
-[17:10:39] [Server thread/INFO]: JT_potato issued server command: /loot give @a loot minecraft:entities/enderman
-[17:13:45] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
-[17:13:45] [Server thread/INFO]: [JT_potato: Reloading!]
-[17:13:45] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v1, manhunt_v2
-[17:13:47] [Server thread/WARN]: JT_potato moved too quickly! -10.01192572801682,0.0,-3.479115688315261
-[17:13:47] [Server thread/WARN]: JT_potato moved too quickly! -9.401105740802734,0.0,-3.4509426348934227
-[17:13:48] [Server thread/INFO]: Loaded 7 recipes
-[17:13:50] [Server thread/WARN]: JT_potato moved too quickly! 12.931804490207185,0.0,-15.562791947241436
-[17:14:35] [Server thread/INFO]: JT_potato has made the advancement [Into Fire]
-[17:15:19] [Server thread/INFO]: JT_potato has reached the goal [Hired Help]
-[17:15:41] [Server thread/INFO]: JT_potato has made the advancement [Acquire Hardware]
-[17:16:00] [Server thread/INFO]: JT_potato lost connection: Disconnected
-[17:16:00] [Server thread/INFO]: JT_potato left the game
-[17:16:09] [Server thread/INFO]: Stopping the server
-[17:16:09] [Server thread/INFO]: Stopping server
-[17:16:09] [Server thread/INFO]: Saving players
-[17:16:10] [Server thread/INFO]: Saving worlds
-[17:16:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:16:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:16:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:16:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:16:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:16:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:16:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:16:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:16:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:16:11] [Server thread/INFO]: Flushing Chunk IO
-[17:16:11] [Server thread/INFO]: Closing Thread Pool
+[10:22:51] [main/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v1, manhunt_v2
+[10:22:51] [Worker-Main-4/INFO]: Loaded 7 recipes
+[10:22:53] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[10:22:53] [Server thread/INFO]: Loading properties
+[10:22:53] [Server thread/INFO]: This server is running Tuinity version git-Tuinity-"d3ee222" (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[10:22:53] [Server thread/INFO]: Debug logging is disabled
+[10:22:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:22:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:22:53] [Server thread/INFO]: Default game type: SURVIVAL
+[10:22:53] [Server thread/INFO]: Generating keypair
+[10:22:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:22:53] [Server thread/INFO]: Using default channel type
+[10:22:53] [Server thread/INFO]: Tuinity: Using Java 11 compression from Velocity.
+[10:22:53] [Server thread/INFO]: Tuinity: Using Java cipher from Velocity.
+[10:22:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:22:53] [Server thread/INFO]: Preparing level "world"
+[10:22:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:22:54] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[10:22:54] [Server thread/INFO]: Preparing spawn area: 0%
+[10:22:54] [Server thread/INFO]: Time elapsed: 258 ms
+[10:22:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:22:54] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[10:22:54] [Server thread/INFO]: Preparing spawn area: 0%
+[10:22:54] [Server thread/INFO]: Preparing spawn area: 0%
+[10:22:54] [Server thread/INFO]: Time elapsed: 685 ms
+[10:22:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:22:55] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[10:22:55] [Server thread/INFO]: Time elapsed: 133 ms
+[10:22:55] [Server thread/INFO]: Running delayed init tasks
+[10:22:55] [Server thread/INFO]: Done (2.148s)! For help, type "help"
+[10:22:55] [Server thread/INFO]: Timings Reset
+[10:24:12] [User Authenticator #1/INFO]: UUID of player JT_potato is 4991d250-ad32-4935-ba0e-415c5e1b6d9c
+[10:24:13] [Server thread/INFO]: Hunter JT_potato joined the game
+[10:24:13] [Server thread/INFO]: JT_potato[/127.0.0.1:63559] logged in with entity id 361 at ([world]-218.42147929999328, 76.0, 1.8087729947493236)
+[10:24:44] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[10:24:44] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[10:24:44] [Server thread/INFO]: [Hunter JT_potato: Executed 29 commands from function 'mh:start']
+[10:28:55] [Server thread/INFO]: JT_potato issued server command: /scoreboard objectives add teams dummy "Teams"
+[10:28:55] [Server thread/INFO]: [Hunter JT_potato: Created new objective [Teams]]
+[10:29:06] [Server thread/INFO]: JT_potato issued server command: /scoreboard objectives setdisplay sidebar teams
+[10:29:06] [Server thread/INFO]: [Hunter JT_potato: Set display slot sidebar to show objective Teams]
+[10:29:14] [Server thread/INFO]: JT_potato issued server command: /scoreboard players add @a teams 0
+[10:29:14] [Server thread/INFO]: [Hunter JT_potato: Added 0 to [Teams] for JT_potato (now 0)]
+[10:30:31] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
+[10:30:31] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
+[10:30:31] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v1, manhunt_v2
+[10:30:32] [Server thread/INFO]: Loaded 7 recipes
+[10:30:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6502ms or 130 ticks behind
+[10:30:51] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[10:30:52] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[10:30:52] [Server thread/INFO]: [Hunter JT_potato: Executed 29 commands from function 'mh:start']
+[10:31:43] [Server thread/INFO]: JT_potato issued server command: /function mh:end
+[10:31:43] [Server thread/INFO]: [Hunter JT_potato: Executed 11 commands from function 'mh:end']
+[10:31:46] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[10:31:46] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[10:31:46] [Server thread/INFO]: [Hunter JT_potato: Executed 29 commands from function 'mh:start']
+[10:33:59] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
+[10:33:59] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
+[10:33:59] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v1, manhunt_v2
+[10:34:02] [Server thread/INFO]: Loaded 7 recipes
+[10:34:15] [Server thread/INFO]: JT_potato issued server command: /function mh:end
+[10:34:15] [Server thread/INFO]: [Hunter JT_potato: Executed 11 commands from function 'mh:end']
+[10:34:18] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[10:34:18] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[10:34:18] [Server thread/INFO]: [Hunter JT_potato: Executed 29 commands from function 'mh:start']
+[10:35:27] [Server thread/INFO]: JT_potato issued server command: /datapack
+[10:35:31] [Server thread/INFO]: JT_potato issued server command: /datapack list
+[10:35:43] [Server thread/INFO]: JT_potato issued server command: /datapack disable "file/manhunt_v1"
+[10:35:43] [Server thread/INFO]: [Hunter JT_potato: Disabling data pack [file/manhunt_v1 (world)]]
+[10:35:43] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
+[10:35:44] [Server thread/INFO]: Loaded 7 recipes
+[10:35:47] [Server thread/INFO]: JT_potato issued server command: /datapack disable "file/manhunt_v1"
+[10:35:56] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[10:37:38] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
+[10:37:38] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
+[10:37:38] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
+[10:37:38] [Server thread/INFO]: Loaded 7 recipes
+[10:37:48] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[10:37:48] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[10:37:48] [Server thread/INFO]: [Hunter JT_potato] Debug: Finished populating scoreboard
+[10:37:48] [Server thread/INFO]: [Hunter JT_potato: Executed 25 commands from function 'mh:start']
+[10:40:20] [Server thread/INFO]: JT_potato issued server command: /kill @s
+[10:40:20] [Server thread/INFO]: Hunter JT_potato fell out of the world
+[10:40:20] [Server thread/INFO]: [Hunter JT_potato: Killed Hunter JT_potato]
+[10:41:01] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
+[10:41:01] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
+[10:41:01] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
+[10:41:01] [Server thread/INFO]: Loaded 7 recipes
+[10:41:14] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[10:41:14] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[10:41:14] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
+[10:56:08] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
+[10:56:08] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
+[10:56:08] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
+[10:56:08] [Server thread/INFO]: Loaded 7 recipes
+[10:56:27] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[10:56:27] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[10:56:27] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
+[10:57:10] [Server thread/INFO]: JT_potato issued server command: /team add thanksForPlaying
+[10:57:22] [Server thread/INFO]: JT_potato issued server command: /team modify thanksForPlaying prefix {"text":"Thanks for "}
+[10:58:25] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
+[10:58:25] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
+[10:58:25] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
+[10:58:25] [Server thread/INFO]: Loaded 7 recipes
+[10:58:33] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[10:58:33] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[10:58:33] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
+[10:58:49] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
+[10:58:49] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
+[10:58:49] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
+[10:58:50] [Server thread/INFO]: Loaded 7 recipes
+[10:59:15] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[10:59:15] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[10:59:15] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
+[11:00:00] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[11:00:00] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[11:00:00] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
+[11:00:04] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
+[11:00:05] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
+[11:00:05] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
+[11:00:05] [Server thread/INFO]: Loaded 7 recipes
+[11:00:12] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[11:00:12] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[11:00:12] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
+[11:00:31] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[11:00:31] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[11:00:31] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
+[11:00:33] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
+[11:00:33] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
+[11:00:33] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
+[11:00:33] [Server thread/INFO]: Loaded 7 recipes
+[11:00:40] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[11:00:40] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[11:00:40] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
+[11:01:06] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
+[11:01:06] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
+[11:01:06] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
+[11:01:06] [Server thread/INFO]: Loaded 7 recipes
+[11:01:08] [Server thread/WARN]: JT_potato moved too quickly! 11.96552703955885,0.0,6.305031347924604
+[11:01:11] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[11:01:11] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[11:01:11] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
+[11:02:57] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[11:02:57] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[11:02:57] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
+[11:03:27] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[11:03:27] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[11:03:27] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
+[11:03:32] [Server thread/INFO]: JT_potato issued server command: /minecraft:relaod
+[11:03:36] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
+[11:03:37] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
+[11:03:37] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
+[11:03:37] [Server thread/INFO]: Loaded 7 recipes
+[11:03:47] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[11:03:47] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[11:03:47] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
+[11:06:00] [Server thread/INFO]: Stopping the server
+[11:06:00] [Server thread/INFO]: Stopping server
+[11:06:00] [Server thread/INFO]: Saving players
+[11:06:01] [Server thread/INFO]: JT_potato lost connection: Server closed
+[11:06:01] [Server thread/INFO]: JT_potato left the game
+[11:06:01] [Server thread/INFO]: Saving worlds
+[11:06:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:06:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:06:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:06:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:06:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:06:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:06:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:06:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:06:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:06:05] [Server thread/INFO]: Flushing Chunk IO
+[11:06:05] [Server thread/INFO]: Closing Thread Pool
+[11:06:05] [Server thread/INFO]: Closing Server

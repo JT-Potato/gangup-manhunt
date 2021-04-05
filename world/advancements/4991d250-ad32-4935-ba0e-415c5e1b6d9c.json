@@ -5,15 +5,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/iron_bars": {
-    "criteria": {
-      "has_iron_ingot": "2021-01-24 17:15:41 +1100"
-    },
-    "done": true
-  },
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2021-01-24 17:14:35 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2021-01-24 17:15:41 +1100"
     },
     "done": true
   },
@@ -70,6 +70,8 @@
       "minecraft:forest": "2021-01-24 17:04:20 +1100",
       "minecraft:beach": "2021-01-24 17:03:47 +1100",
       "minecraft:river": "2021-01-24 17:03:58 +1100",
+      "minecraft:lukewarm_ocean": "2021-03-08 11:52:42 +1100",
+      "minecraft:wooded_hills": "2021-03-08 11:45:23 +1100",
       "minecraft:swamp": "2021-01-24 17:04:01 +1100",
       "minecraft:plains": "2021-01-24 16:56:49 +1100"
     },
@@ -90,6 +92,12 @@
   "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
       "has_iron_ingot": "2021-01-24 17:15:41 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2021-04-05 10:37:48 +1000"
     },
     "done": true
   },

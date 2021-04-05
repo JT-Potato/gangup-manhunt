@@ -1,0 +1,79 @@
+[11:31:18] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:31:19] [main/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v1, manhunt_v2
+[11:31:20] [Worker-Main-5/INFO]: Loaded 7 recipes
+[11:31:22] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[11:31:22] [Server thread/INFO]: Loading properties
+[11:31:22] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_51]
+	at java.io.FileInputStream.read(FileInputStream.java:255) ~[?:1.8.0_51]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284) ~[?:1.8.0_51]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345) ~[?:1.8.0_51]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:1.8.0_51]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:1.8.0_51]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:1.8.0_51]
+	at java.io.InputStreamReader.read(InputStreamReader.java:184) ~[?:1.8.0_51]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:1.8.0_51]
+	at java.io.BufferedReader.readLine(BufferedReader.java:324) ~[?:1.8.0_51]
+	at java.io.BufferedReader.readLine(BufferedReader.java:389) ~[?:1.8.0_51]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[patched_1.16.5.jar:git-Tuinity-"d3ee222"]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[patched_1.16.5.jar:git-Tuinity-"d3ee222"]
+	at net.minecraft.server.v1_16_R3.DedicatedServer$1.run(DedicatedServer.java:67) ~[patched_1.16.5.jar:git-Tuinity-"d3ee222"]
+	Suppressed: java.io.IOException: The handle is invalid
+		at java.io.FileInputStream.close0(Native Method) ~[?:1.8.0_51]
+		at java.io.FileInputStream.access$000(FileInputStream.java:49) ~[?:1.8.0_51]
+		at java.io.FileInputStream$1.close(FileInputStream.java:328) ~[?:1.8.0_51]
+		at java.io.FileDescriptor.closeAll(FileDescriptor.java:216) ~[?:1.8.0_51]
+		at java.io.FileInputStream.close(FileInputStream.java:326) ~[?:1.8.0_51]
+		at java.io.BufferedInputStream.close(BufferedInputStream.java:483) ~[?:1.8.0_51]
+		at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:378) ~[?:1.8.0_51]
+		at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:193) ~[?:1.8.0_51]
+		at java.io.InputStreamReader.close(InputStreamReader.java:199) ~[?:1.8.0_51]
+		at java.io.BufferedReader.close(BufferedReader.java:525) ~[?:1.8.0_51]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[patched_1.16.5.jar:git-Tuinity-"d3ee222"]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[patched_1.16.5.jar:git-Tuinity-"d3ee222"]
+		at net.minecraft.server.v1_16_R3.DedicatedServer$1.run(DedicatedServer.java:67) ~[patched_1.16.5.jar:git-Tuinity-"d3ee222"]
+[11:31:22] [Server thread/INFO]: This server is running Tuinity version git-Tuinity-"d3ee222" (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[11:31:22] [Server thread/INFO]: Debug logging is disabled
+[11:31:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:31:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:31:22] [Server thread/INFO]: Default game type: SURVIVAL
+[11:31:22] [Server thread/INFO]: Generating keypair
+[11:31:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:31:22] [Server thread/INFO]: Using default channel type
+[11:31:23] [Server thread/INFO]: Tuinity: Using Java compression from Velocity.
+[11:31:23] [Server thread/INFO]: Tuinity: Using Java cipher from Velocity.
+[11:31:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:31:24] [Server thread/INFO]: Preparing level "world"
+[11:31:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:31:25] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[11:31:25] [Server thread/INFO]: Preparing spawn area: 0%
+[11:31:25] [Server thread/INFO]: Preparing spawn area: 0%
+[11:31:25] [Server thread/INFO]: Time elapsed: 661 ms
+[11:31:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:31:25] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[11:31:26] [Server thread/INFO]: Preparing spawn area: 0%
+[11:31:26] [Server thread/INFO]: Preparing spawn area: 0%
+[11:31:26] [Server thread/INFO]: Preparing spawn area: 0%
+[11:31:26] [Server thread/INFO]: Time elapsed: 1314 ms
+[11:31:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:31:27] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[11:31:27] [Server thread/INFO]: Time elapsed: 91 ms
+[11:31:27] [Server thread/INFO]: Running delayed init tasks
+[11:31:27] [Server thread/INFO]: Done (4.691s)! For help, type "help"
+[11:31:27] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[11:31:27] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[11:31:27] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[11:31:27] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[11:31:27] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[11:31:27] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[11:31:27] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
+[11:31:27] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
+[11:31:27] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[11:31:27] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[11:31:27] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_51
+[11:31:27] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[11:31:27] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[11:31:27] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
+[11:31:27] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[11:31:27] [Server thread/INFO]: Timings Reset
