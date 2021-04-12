@@ -1,174 +1,397 @@
-[10:22:51] [main/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v1, manhunt_v2
-[10:22:51] [Worker-Main-4/INFO]: Loaded 7 recipes
-[10:22:53] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[10:22:53] [Server thread/INFO]: Loading properties
-[10:22:53] [Server thread/INFO]: This server is running Tuinity version git-Tuinity-"d3ee222" (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[10:22:53] [Server thread/INFO]: Debug logging is disabled
-[10:22:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:22:53] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:22:53] [Server thread/INFO]: Default game type: SURVIVAL
-[10:22:53] [Server thread/INFO]: Generating keypair
-[10:22:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:22:53] [Server thread/INFO]: Using default channel type
-[10:22:53] [Server thread/INFO]: Tuinity: Using Java 11 compression from Velocity.
-[10:22:53] [Server thread/INFO]: Tuinity: Using Java cipher from Velocity.
-[10:22:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:22:53] [Server thread/INFO]: Preparing level "world"
-[10:22:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:22:54] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[10:22:54] [Server thread/INFO]: Preparing spawn area: 0%
-[10:22:54] [Server thread/INFO]: Time elapsed: 258 ms
-[10:22:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[10:22:54] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[10:22:54] [Server thread/INFO]: Preparing spawn area: 0%
-[10:22:54] [Server thread/INFO]: Preparing spawn area: 0%
-[10:22:54] [Server thread/INFO]: Time elapsed: 685 ms
-[10:22:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[10:22:55] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[10:22:55] [Server thread/INFO]: Time elapsed: 133 ms
-[10:22:55] [Server thread/INFO]: Running delayed init tasks
-[10:22:55] [Server thread/INFO]: Done (2.148s)! For help, type "help"
-[10:22:55] [Server thread/INFO]: Timings Reset
-[10:24:12] [User Authenticator #1/INFO]: UUID of player JT_potato is 4991d250-ad32-4935-ba0e-415c5e1b6d9c
-[10:24:13] [Server thread/INFO]: Hunter JT_potato joined the game
-[10:24:13] [Server thread/INFO]: JT_potato[/127.0.0.1:63559] logged in with entity id 361 at ([world]-218.42147929999328, 76.0, 1.8087729947493236)
-[10:24:44] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[10:24:44] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
-[10:24:44] [Server thread/INFO]: [Hunter JT_potato: Executed 29 commands from function 'mh:start']
-[10:28:55] [Server thread/INFO]: JT_potato issued server command: /scoreboard objectives add teams dummy "Teams"
-[10:28:55] [Server thread/INFO]: [Hunter JT_potato: Created new objective [Teams]]
-[10:29:06] [Server thread/INFO]: JT_potato issued server command: /scoreboard objectives setdisplay sidebar teams
-[10:29:06] [Server thread/INFO]: [Hunter JT_potato: Set display slot sidebar to show objective Teams]
-[10:29:14] [Server thread/INFO]: JT_potato issued server command: /scoreboard players add @a teams 0
-[10:29:14] [Server thread/INFO]: [Hunter JT_potato: Added 0 to [Teams] for JT_potato (now 0)]
-[10:30:31] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
-[10:30:31] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
-[10:30:31] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v1, manhunt_v2
-[10:30:32] [Server thread/INFO]: Loaded 7 recipes
-[10:30:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6502ms or 130 ticks behind
-[10:30:51] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[10:30:52] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
-[10:30:52] [Server thread/INFO]: [Hunter JT_potato: Executed 29 commands from function 'mh:start']
-[10:31:43] [Server thread/INFO]: JT_potato issued server command: /function mh:end
-[10:31:43] [Server thread/INFO]: [Hunter JT_potato: Executed 11 commands from function 'mh:end']
-[10:31:46] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[10:31:46] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
-[10:31:46] [Server thread/INFO]: [Hunter JT_potato: Executed 29 commands from function 'mh:start']
-[10:33:59] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
-[10:33:59] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
-[10:33:59] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v1, manhunt_v2
-[10:34:02] [Server thread/INFO]: Loaded 7 recipes
-[10:34:15] [Server thread/INFO]: JT_potato issued server command: /function mh:end
-[10:34:15] [Server thread/INFO]: [Hunter JT_potato: Executed 11 commands from function 'mh:end']
-[10:34:18] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[10:34:18] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
-[10:34:18] [Server thread/INFO]: [Hunter JT_potato: Executed 29 commands from function 'mh:start']
-[10:35:27] [Server thread/INFO]: JT_potato issued server command: /datapack
-[10:35:31] [Server thread/INFO]: JT_potato issued server command: /datapack list
-[10:35:43] [Server thread/INFO]: JT_potato issued server command: /datapack disable "file/manhunt_v1"
-[10:35:43] [Server thread/INFO]: [Hunter JT_potato: Disabling data pack [file/manhunt_v1 (world)]]
-[10:35:43] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
-[10:35:44] [Server thread/INFO]: Loaded 7 recipes
-[10:35:47] [Server thread/INFO]: JT_potato issued server command: /datapack disable "file/manhunt_v1"
-[10:35:56] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[10:37:38] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
-[10:37:38] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
-[10:37:38] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
-[10:37:38] [Server thread/INFO]: Loaded 7 recipes
-[10:37:48] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[10:37:48] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
-[10:37:48] [Server thread/INFO]: [Hunter JT_potato] Debug: Finished populating scoreboard
-[10:37:48] [Server thread/INFO]: [Hunter JT_potato: Executed 25 commands from function 'mh:start']
-[10:40:20] [Server thread/INFO]: JT_potato issued server command: /kill @s
-[10:40:20] [Server thread/INFO]: Hunter JT_potato fell out of the world
-[10:40:20] [Server thread/INFO]: [Hunter JT_potato: Killed Hunter JT_potato]
-[10:41:01] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
-[10:41:01] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
-[10:41:01] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
-[10:41:01] [Server thread/INFO]: Loaded 7 recipes
-[10:41:14] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[10:41:14] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
-[10:41:14] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
-[10:56:08] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
-[10:56:08] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
-[10:56:08] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
-[10:56:08] [Server thread/INFO]: Loaded 7 recipes
-[10:56:27] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[10:56:27] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
-[10:56:27] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
-[10:57:10] [Server thread/INFO]: JT_potato issued server command: /team add thanksForPlaying
-[10:57:22] [Server thread/INFO]: JT_potato issued server command: /team modify thanksForPlaying prefix {"text":"Thanks for "}
-[10:58:25] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
-[10:58:25] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
-[10:58:25] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
-[10:58:25] [Server thread/INFO]: Loaded 7 recipes
-[10:58:33] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[10:58:33] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
-[10:58:33] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
-[10:58:49] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
-[10:58:49] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
-[10:58:49] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
-[10:58:50] [Server thread/INFO]: Loaded 7 recipes
-[10:59:15] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[10:59:15] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
-[10:59:15] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
-[11:00:00] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[11:00:00] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
-[11:00:00] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
-[11:00:04] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
-[11:00:05] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
-[11:00:05] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
-[11:00:05] [Server thread/INFO]: Loaded 7 recipes
-[11:00:12] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[11:00:12] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
-[11:00:12] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
-[11:00:31] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[11:00:31] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
-[11:00:31] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
-[11:00:33] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
-[11:00:33] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
-[11:00:33] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
-[11:00:33] [Server thread/INFO]: Loaded 7 recipes
-[11:00:40] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[11:00:40] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
-[11:00:40] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
-[11:01:06] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
-[11:01:06] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
-[11:01:06] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
-[11:01:06] [Server thread/INFO]: Loaded 7 recipes
-[11:01:08] [Server thread/WARN]: JT_potato moved too quickly! 11.96552703955885,0.0,6.305031347924604
-[11:01:11] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[11:01:11] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
-[11:01:11] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
-[11:02:57] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[11:02:57] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
-[11:02:57] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
-[11:03:27] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[11:03:27] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
-[11:03:27] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
-[11:03:32] [Server thread/INFO]: JT_potato issued server command: /minecraft:relaod
-[11:03:36] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
-[11:03:37] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
-[11:03:37] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
-[11:03:37] [Server thread/INFO]: Loaded 7 recipes
-[11:03:47] [Server thread/INFO]: JT_potato issued server command: /function mh:start
-[11:03:47] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
-[11:03:47] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
-[11:06:00] [Server thread/INFO]: Stopping the server
-[11:06:00] [Server thread/INFO]: Stopping server
-[11:06:00] [Server thread/INFO]: Saving players
-[11:06:01] [Server thread/INFO]: JT_potato lost connection: Server closed
-[11:06:01] [Server thread/INFO]: JT_potato left the game
-[11:06:01] [Server thread/INFO]: Saving worlds
-[11:06:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:06:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:06:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[11:06:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:06:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[11:06:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:06:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:06:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:06:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:06:05] [Server thread/INFO]: Flushing Chunk IO
-[11:06:05] [Server thread/INFO]: Closing Thread Pool
-[11:06:05] [Server thread/INFO]: Closing Server
+[10:50:36] [main/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
+[10:50:37] [Worker-Main-3/INFO]: Loaded 7 recipes
+[10:50:38] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[10:50:38] [Server thread/INFO]: Loading properties
+[10:50:38] [Server thread/INFO]: This server is running Tuinity version git-Tuinity-"d3ee222" (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[10:50:38] [Server thread/INFO]: Debug logging is disabled
+[10:50:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:50:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:50:38] [Server thread/INFO]: Default game type: SURVIVAL
+[10:50:38] [Server thread/INFO]: Generating keypair
+[10:50:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:50:39] [Server thread/INFO]: Using default channel type
+[10:50:39] [Server thread/INFO]: Tuinity: Using Java 11 compression from Velocity.
+[10:50:39] [Server thread/INFO]: Tuinity: Using Java cipher from Velocity.
+[10:50:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:50:39] [Server thread/INFO]: Preparing level "world"
+[10:50:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:50:40] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[10:50:40] [Server thread/INFO]: Preparing spawn area: 0%
+[10:50:40] [Server thread/INFO]: Time elapsed: 315 ms
+[10:50:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:50:40] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[10:50:40] [Server thread/INFO]: Preparing spawn area: 0%
+[10:50:40] [Server thread/INFO]: Preparing spawn area: 0%
+[10:50:40] [Server thread/INFO]: Time elapsed: 671 ms
+[10:50:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:50:40] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[10:50:40] [Server thread/INFO]: Time elapsed: 110 ms
+[10:50:40] [Server thread/INFO]: Running delayed init tasks
+[10:50:40] [Server thread/INFO]: Done (2.110s)! For help, type "help"
+[10:50:40] [Server thread/INFO]: Timings Reset
+[11:00:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5038ms or 100 ticks behind
+[11:01:29] [User Authenticator #1/INFO]: UUID of player JT_potato is 4991d250-ad32-4935-ba0e-415c5e1b6d9c
+[11:01:30] [Server thread/INFO]: Hunter JT_potato joined the game
+[11:01:30] [Server thread/INFO]: JT_potato[/127.0.0.1:55878] logged in with entity id 387 at ([world]-169.3194745975944, 74.33154441899345, 62.88676147478614)
+[11:11:42] [Server thread/INFO]: JT_potato issued server command: /summon minecraft:villager
+[11:11:42] [Server thread/INFO]: [Hunter JT_potato: Summoned new Villager]
+[11:11:54] [Server thread/INFO]: JT_potato issued server command: /effect give @a minecraft:resistance 255
+[11:11:54] [Server thread/INFO]: [Hunter JT_potato: Applied effect Resistance to Hunter JT_potato]
+[11:11:56] [Server thread/INFO]: JT_potato issued server command: /effect give @a minecraft:resistance 255 255
+[11:11:56] [Server thread/INFO]: [Hunter JT_potato: Applied effect Resistance to Hunter JT_potato]
+[11:12:10] [Server thread/INFO]: JT_potato issued server command: /effect give @e minecraft:resistance 255 255
+[11:12:10] [Server thread/INFO]: [Hunter JT_potato: Applied effect Resistance to 412 targets]
+[11:12:30] [Server thread/INFO]: JT_potato issued server command: /gamemode survival
+[11:12:30] [Server thread/INFO]: [Hunter JT_potato: Set own game mode to Survival Mode]
+[11:14:52] [Server thread/INFO]: JT_potato issued server command: /kill @e
+[11:14:53] [Server thread/INFO]: Hunter JT_potato fell out of the world
+[11:14:53] [Server thread/INFO]: Villager EntityVillager['Villager'/1433, uuid='a5a6404d-c18c-4321-a5a4-5bb495a64cd2', l='ServerLevel[world]', x=-273.26, y=70.00, z=-64.74, cx=-18, cz=-5, tl=3808, v=true, d=false] died, message: 'Villager didn't want to live in the same world as Hunter JT_potato'
+[11:14:53] [Server thread/INFO]: [Hunter JT_potato: Killed 489 entities]
+[11:14:56] [Server thread/INFO]: JT_potato issued server command: /gamemode creative
+[11:14:56] [Server thread/INFO]: [Hunter JT_potato: Set own game mode to Creative Mode]
+[11:18:47] [Server thread/INFO]: JT_potato lost connection: Disconnected
+[11:18:47] [Server thread/INFO]: JT_potato left the game
+[11:44:18] [User Authenticator #2/INFO]: UUID of player InterCozmic is c583f9ca-638a-42f3-85e4-1ac6b6ae884a
+[11:44:18] [Server thread/INFO]: InterCozmic joined the game
+[11:44:19] [Server thread/INFO]: InterCozmic[/[0:0:0:0:0:0:0:1]:56589] logged in with entity id 3221 at ([world]-144.5, 66.0, 57.5)
+[11:45:37] [Server thread/INFO]: InterCozmic lost connection: Kicked by an operator
+[11:45:37] [Server thread/INFO]: InterCozmic left the game
+[11:45:37] [Server thread/INFO]: Kicked InterCozmic: Kicked by an operator
+[12:04:36] [User Authenticator #3/INFO]: UUID of player InterCozmic is c583f9ca-638a-42f3-85e4-1ac6b6ae884a
+[12:04:36] [Server thread/INFO]: InterCozmic joined the game
+[12:04:39] [Server thread/INFO]: InterCozmic[/[0:0:0:0:0:0:0:1]:56958] logged in with entity id 3431 at ([world]-117.04962569722956, 67.0, 18.855547425015324)
+[12:06:08] [User Authenticator #4/INFO]: UUID of player JT_potato is 4991d250-ad32-4935-ba0e-415c5e1b6d9c
+[12:06:08] [Server thread/INFO]: Hunter JT_potato joined the game
+[12:06:08] [Server thread/INFO]: JT_potato[/127.0.0.1:56976] logged in with entity id 3601 at ([world]-176.0238374675829, 69.90779718977033, 55.61820917257696)
+[12:06:18] [Async Chat Thread - #0/INFO]: <JT_potato> hi
+[12:06:19] [Async Chat Thread - #0/INFO]: <JT_potato> um
+[12:06:20] [Async Chat Thread - #0/INFO]: <InterCozmic> THIS
+[12:06:21] [Async Chat Thread - #0/INFO]: <InterCozmic> IS
+[12:06:22] [Async Chat Thread - #0/INFO]: <JT_potato> whats your fps
+[12:06:23] [Async Chat Thread - #0/INFO]: <InterCozmic> SO
+[12:06:24] [Async Chat Thread - #0/INFO]: <InterCozmic> AWESOME
+[12:06:35] [Server thread/INFO]: JT_potato issued server command: /op InterCozmic
+[12:06:35] [Server thread/INFO]: [Hunter JT_potato: Made InterCozmic a server operator]
+[12:06:38] [Async Chat Thread - #0/INFO]: <InterCozmic> IM GETTING 45 FPS MINIMUM
+[12:06:45] [Async Chat Thread - #0/INFO]: <JT_potato> im getting 150 rn
+[12:07:16] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[12:07:17] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[12:07:17] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
+[12:07:17] [Server thread/INFO]: [Hunter JT_potato] I am a hunter now!
+[12:07:21] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[12:07:21] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[12:07:21] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
+[12:07:37] [Async Chat Thread - #0/INFO]: <JT_potato> nice the scoreboard works
+[12:07:53] [Async Chat Thread - #0/INFO]: <InterCozmic> this is what playable minecraft feels like
+[12:07:57] [Async Chat Thread - #0/INFO]: <JT_potato> yeah
+[12:08:04] [Async Chat Thread - #0/INFO]: <InterCozmic> WHOA COOL I JUST REACHED 100
+[12:08:12] [Async Chat Thread - #0/INFO]: <JT_potato> whats your render distance
+[12:08:14] [Async Chat Thread - #0/INFO]: <JT_potato> mines 4
+[12:08:15] [Async Chat Thread - #0/INFO]: <InterCozmic> just had to turn off portal animations
+[12:08:19] [Async Chat Thread - #0/INFO]: <InterCozmic> mines 5
+[12:08:27] [Async Chat Thread - #0/INFO]: <JT_potato> i did say to turn all animations off
+[12:08:39] [Async Chat Thread - #0/INFO]: <InterCozmic> it just ruins the game if everything is off
+[12:08:41] [Async Chat Thread - #0/INFO]: <InterCozmic> besides
+[12:08:43] [Async Chat Thread - #0/INFO]: <InterCozmic> this is playable
+[12:08:51] [Async Chat Thread - #0/INFO]: <JT_potato> ig... wait until you start recording haha
+[12:09:02] [Async Chat Thread - #0/INFO]: <JT_potato> also what was that about recording
+[12:09:04] [Async Chat Thread - #0/INFO]: <InterCozmic> running in circles
+[12:09:11] [Async Chat Thread - #0/INFO]: <InterCozmic> about recording
+[12:09:11] [Async Chat Thread - #0/INFO]: <InterCozmic> yes
+[12:09:21] [Async Chat Thread - #0/INFO]: <InterCozmic> did you finish your lightweight recorder thingy
+[12:09:26] [Async Chat Thread - #0/INFO]: <JT_potato> nah
+[12:09:29] [Async Chat Thread - #0/INFO]: <InterCozmic> also hows your internet
+[12:09:35] [Async Chat Thread - #0/INFO]: <JT_potato> its not that much more lightweight that obs
+[12:09:39] [Async Chat Thread - #0/INFO]: <JT_potato> my internet? good
+[12:09:45] [Async Chat Thread - #0/INFO]: <JT_potato> like stable 20mbps at worst
+[12:09:48] [Async Chat Thread - #0/INFO]: <InterCozmic> you're lagging slightly
+[12:09:50] [Async Chat Thread - #0/INFO]: <InterCozmic> but ok
+[12:09:52] [Async Chat Thread - #0/INFO]: <InterCozmic> gtg
+[12:09:56] [Async Chat Thread - #0/INFO]: <JT_potato> cya
+[12:09:59] [Async Chat Thread - #0/INFO]: <InterCozmic> i forgot to make my bed ._.
+[12:10:02] [Async Chat Thread - #0/INFO]: <JT_potato> lol
+[12:10:03] [Async Chat Thread - #0/INFO]: <InterCozmic> be back in like 10 minutes
+[12:10:14] [Async Chat Thread - #0/INFO]: <JT_potato> actually in a few minutes i gtg for 10 minutes too
+[12:10:31] [Server thread/INFO]: JT_potato issued server command: /gamemode creative InterCozmic
+[12:10:31] [Server thread/INFO]: [Speedrunner JT_potato: Set Hunter InterCozmic's game mode to Creative Mode]
+[12:10:41] [Server thread/INFO]: Speedrunner JT_potato has made the advancement [Stone Age]
+[12:11:31] [Server thread/INFO]: JT_potato issued server command: /tp InterCozmic JT_potato
+[12:11:31] [Server thread/INFO]: Hunter InterCozmic has made the advancement [We Need to Go Deeper]
+[12:11:31] [Server thread/INFO]: [Speedrunner JT_potato: Teleported Hunter InterCozmic to Speedrunner JT_potato]
+[12:12:23] [Async Chat Thread - #1/INFO]: <InterCozmic> i hear funny sounds what is going on WAIT WHAT
+[12:12:29] [Async Chat Thread - #1/INFO]: <InterCozmic> WHY ARE THERE PIGLINS
+[12:12:30] [Async Chat Thread - #1/INFO]: <JT_potato> llol
+[12:12:35] [Async Chat Thread - #1/INFO]: <JT_potato> im testing bartering
+[12:12:39] [Async Chat Thread - #1/INFO]: <InterCozmic> and there goes my mattress cover
+[12:12:40] [Async Chat Thread - #1/INFO]: <JT_potato> i made Dream hacks rmember
+[12:12:45] [Async Chat Thread - #1/INFO]: <InterCozmic> COME ON I JUST STRAIGHTENED THAT
+[12:12:49] [Async Chat Thread - #1/INFO]: <InterCozmic> oh yeah
+[12:12:51] [Async Chat Thread - #1/INFO]: <JT_potato> im testing them out rn
+[12:12:52] [Async Chat Thread - #1/INFO]: <InterCozmic> anyway bye again
+[12:12:54] [Async Chat Thread - #1/INFO]: <JT_potato> cya
+[12:13:14] [Async Chat Thread - #1/INFO]: <JT_potato> SO MANY PEARLS
+[12:15:26] [Async Chat Thread - #2/INFO]: <JT_potato> Results: 64 gold=
+[12:15:31] [Async Chat Thread - #2/INFO]: <JT_potato> 7 and a half stacks of cobble
+[12:15:40] [Async Chat Thread - #2/INFO]: <JT_potato> 2 stacks + 2 pearls
+[12:17:52] [Server thread/INFO]: JT_potato issued server command: /give @s minecraft:command_block
+[12:17:52] [Server thread/INFO]: [Speedrunner JT_potato: Gave 1 [Command Block] to Speedrunner JT_potato]
+[12:18:02] [Async Chat Thread - #3/INFO]: <InterCozmic> hey im back
+[12:18:17] [Async Chat Thread - #3/INFO]: <JT_potato> we got very good results from the trading
+[12:18:37] [Async Chat Thread - #3/INFO]: <JT_potato> 64 gold yields stacks upon stacks of cobblestone and 34 pearls
+[12:18:57] [Async Chat Thread - #3/INFO]: <JT_potato> so you'd need about 20 gold ingots to get a full set of pearls
+[12:19:36] [Async Chat Thread - #3/INFO]: <JT_potato> im going to practice my bridging now...
+[12:19:58] [Async Chat Thread - #3/INFO]: <InterCozmic> ill just stick with shift bridging thanks
+[12:20:04] [Async Chat Thread - #3/INFO]: <JT_potato> lol
+[12:20:10] [Async Chat Thread - #3/INFO]: <InterCozmic> i f***ing suck at anything else
+[12:20:12] [Server thread/INFO]: Hunter InterCozmic has made the advancement [Stone Age]
+[12:20:22] [Async Chat Thread - #3/INFO]: <InterCozmic> that achievement says everything
+[12:20:26] [Async Chat Thread - #3/INFO]: <InterCozmic> my bridging is from the stone age
+[12:20:31] [Async Chat Thread - #3/INFO]: <InterCozmic> GAH AUTO JUMP
+[12:22:09] [Async Chat Thread - #4/INFO]: <JT_potato> also press right shift
+[12:22:16] [Async Chat Thread - #4/INFO]: <JT_potato> its a lunar client ting
+[12:22:18] [Async Chat Thread - #4/INFO]: <JT_potato> *thing
+[12:24:48] [Server thread/INFO]: InterCozmic issued server command: /gamerule keepInventory true
+[12:24:48] [Server thread/INFO]: [Hunter InterCozmic: Gamerule keepInventory is now set to: true]
+[12:25:18] [Server thread/INFO]: InterCozmic issued server command: /tp JT_potato
+[12:25:18] [Server thread/INFO]: [Hunter InterCozmic: Teleported Hunter InterCozmic to Speedrunner JT_potato]
+[12:25:34] [Async Chat Thread - #5/INFO]: <InterCozmic> i can go fast
+[12:25:38] [Async Chat Thread - #5/INFO]: <JT_potato> lol
+[12:25:39] [Server thread/INFO]: InterCozmic issued server command: /tp JT_potato
+[12:25:39] [Server thread/INFO]: [Hunter InterCozmic: Teleported Hunter InterCozmic to Speedrunner JT_potato]
+[12:25:51] [Async Chat Thread - #5/INFO]: <JT_potato> k so what do we do
+[12:25:54] [Async Chat Thread - #5/INFO]: <InterCozmic> i wonder what'd happen if i did this
+[12:26:00] [Async Chat Thread - #5/INFO]: <InterCozmic> get ready
+[12:26:06] [Server thread/INFO]: InterCozmic issued server command: /spawnpoint @a ~ ~ ~
+[12:26:06] [Server thread/INFO]: [Hunter InterCozmic: Set spawn point to -6, 76, 13 [0.0] in minecraft:the_nether for 2 players]
+[12:26:10] [Server thread/INFO]: InterCozmic issued server command: /gamemode survival @a
+[12:26:10] [Server thread/INFO]: [Hunter InterCozmic: Set Speedrunner JT_potato's game mode to Survival Mode]
+[12:26:10] [Server thread/INFO]: [Hunter InterCozmic: Set own game mode to Survival Mode]
+[12:26:14] [Server thread/INFO]: Hunter InterCozmic was slain by Piglin
+[12:26:18] [Server thread/INFO]: Speedrunner JT_potato was slain by Piglin
+[12:26:18] [Server thread/INFO]: [Hunter JT_potato] I am a hunter now!
+[12:26:20] [Server thread/INFO]: Hunter InterCozmic was shot by Piglin
+[12:26:24] [Server thread/INFO]: Hunter JT_potato was slain by Piglin
+[12:26:26] [Server thread/INFO]: InterCozmic issued server command: /gamemode crewatibve
+[12:26:27] [Server thread/INFO]: Hunter InterCozmic was slain by Piglin
+[12:26:30] [Server thread/INFO]: Hunter JT_potato was slain by Piglin
+[12:26:32] [Server thread/INFO]: InterCozmic issued server command: /tp ~ ~100 ~
+[12:26:33] [Server thread/INFO]: [Hunter InterCozmic: Teleported Hunter InterCozmic to -5.699999988079071, 176.42527412219724, 12.729702967845123]
+[12:26:34] [Server thread/INFO]: Hunter InterCozmic fell from a high place
+[12:26:38] [Server thread/INFO]: InterCozmic issued server command: /gamemode creative
+[12:26:38] [Server thread/INFO]: [Hunter InterCozmic: Set own game mode to Creative Mode]
+[12:26:39] [Server thread/INFO]: Hunter JT_potato was slain by Piglin
+[12:26:43] [Server thread/INFO]: JT_potato issued server command: /gamemode creative
+[12:26:43] [Server thread/INFO]: [Hunter JT_potato: Set own game mode to Creative Mode]
+[12:26:43] [Server thread/INFO]: InterCozmic issued server command: /gamemode creative JT_potato
+[12:26:45] [Async Chat Thread - #5/INFO]: <InterCozmic> SORRY
+[12:26:48] [Server thread/INFO]: JT_potato issued server command: /function mh:end
+[12:26:48] [Server thread/INFO]: [Hunter JT_potato: Executed 21 commands from function 'mh:end']
+[12:26:48] [Async Chat Thread - #5/INFO]: <InterCozmic> didnt realise
+[12:26:50] [Async Chat Thread - #5/INFO]: <InterCozmic> that would happen
+[12:26:50] [Server thread/INFO]: JT_potato issued server command: /function mh:end
+[12:26:50] [Server thread/INFO]: [Hunter JT_potato: Executed 21 commands from function 'mh:end']
+[12:26:52] [Server thread/INFO]: JT_potato issued server command: /function mh:end
+[12:26:52] [Server thread/INFO]: [Hunter JT_potato: Executed 21 commands from function 'mh:end']
+[12:26:53] [Server thread/INFO]: JT_potato issued server command: /function mh:end
+[12:26:53] [Server thread/INFO]: [Hunter JT_potato: Executed 21 commands from function 'mh:end']
+[12:26:56] [Server thread/INFO]: JT_potato issued server command: /function mh:end
+[12:26:56] [Server thread/INFO]: [Hunter JT_potato: Executed 21 commands from function 'mh:end']
+[12:26:56] [Server thread/INFO]: JT_potato issued server command: /function mh:end
+[12:26:56] [Server thread/INFO]: [Hunter JT_potato: Executed 21 commands from function 'mh:end']
+[12:26:57] [Server thread/INFO]: JT_potato issued server command: /function mh:end
+[12:26:57] [Server thread/INFO]: [Hunter JT_potato: Executed 21 commands from function 'mh:end']
+[12:26:57] [Server thread/INFO]: JT_potato issued server command: /function mh:end
+[12:26:57] [Server thread/INFO]: [Hunter JT_potato: Executed 21 commands from function 'mh:end']
+[12:26:58] [Server thread/INFO]: JT_potato issued server command: /function mh:end
+[12:26:58] [Server thread/INFO]: [Hunter JT_potato: Executed 21 commands from function 'mh:end']
+[12:26:58] [Server thread/INFO]: JT_potato issued server command: /function mh:end
+[12:26:58] [Server thread/INFO]: [Hunter JT_potato: Executed 21 commands from function 'mh:end']
+[12:27:07] [Server thread/INFO]: JT_potato issued server command: /schedule clear
+[12:27:12] [Async Chat Thread - #5/INFO]: <InterCozmic> DIDNT REALISE IT WOULD DO THAT
+[12:27:14] [Async Chat Thread - #5/INFO]: <InterCozmic> WHATS GOING ON
+[12:27:15] [Async Chat Thread - #5/INFO]: <InterCozmic> SORRY
+[12:27:16] [Async Chat Thread - #5/INFO]: <InterCozmic> GAH
+[12:27:18] [Server thread/INFO]: JT_potato issued server command: /schedule clear mh:internal/checkvictory
+[12:27:18] [Async Chat Thread - #5/INFO]: <InterCozmic> IM AN IDIOT
+[12:27:30] [Server thread/INFO]: InterCozmic issued server command: /kick InterCozmic im an idiot. ill contact you via skype
+[12:27:30] [Server thread/INFO]: InterCozmic lost connection: im an idiot. ill contact you via skype
+[12:27:30] [Server thread/INFO]: InterCozmic left the game
+[12:27:30] [Server thread/INFO]: [Speedrunner InterCozmic: Kicked Speedrunner InterCozmic: im an idiot. ill contact you via skype]
+[12:27:41] [Async Chat Thread - #5/INFO]: <JT_potato> aaa
+[12:27:54] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[12:27:54] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[12:27:54] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
+[12:28:04] [Async Chat Thread - #5/INFO]: <JT_potato> bruh
+[12:28:14] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
+[12:28:15] [Server thread/INFO]: [Hunter JT_potato: Reloading!]
+[12:28:16] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
+[12:28:18] [Server thread/INFO]: Loaded 7 recipes
+[12:28:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9183ms or 183 ticks behind
+[12:29:18] [User Authenticator #5/INFO]: UUID of player InterCozmic is c583f9ca-638a-42f3-85e4-1ac6b6ae884a
+[12:29:18] [Server thread/INFO]: InterCozmic joined the game
+[12:29:18] [Server thread/INFO]: InterCozmic[/[0:0:0:0:0:0:0:1]:57193] logged in with entity id 6005 at ([world_nether]-5.699999988079071, 76.0, 12.56424746077657)
+[12:29:36] [Server thread/INFO]: InterCozmic issued server command: /reload
+[12:29:36] [Server thread/INFO]: InterCozmic: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[12:29:58] [Async Chat Thread - #6/INFO]: <JT_potato> mh:internal/checkvictory
+[12:29:59] [Async Chat Thread - #6/INFO]: <InterCozmic> I THINK WE SHOULD RELOAD
+[12:30:04] [Async Chat Thread - #6/INFO]: <InterCozmic> SHOULD WE RELOAD
+[12:30:05] [Server thread/INFO]: JT_potato issued server command: /schedule clear mh:internal/checkvictory
+[12:30:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5161ms or 103 ticks behind
+[12:30:51] [Server thread/INFO]: InterCozmic issued server command: /datapack disable "file/manhunt_v2"
+[12:30:52] [Server thread/INFO]: [Hunter InterCozmic: Disabling data pack [file/manhunt_v2 (world)]]
+[12:30:52] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[12:30:54] [Server thread/INFO]: Loaded 7 recipes
+[12:31:02] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Tuinity-"d3ee222" (MC: 1.16.5) ---
+[12:31:02] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[12:31:02] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:31:02] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[12:31:02] [Paper Watchdog Thread/ERROR]: Handling packet for player 'InterCozmic', UUID: c583f9ca-638a-42f3-85e4-1ac6b6ae884a
+[12:31:02] [Paper Watchdog Thread/ERROR]: Position: world: 'world_nether' at location (-5.699999988079071, 76.0, 12.56424746077657)
+[12:31:02] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 33000
+[12:31:02] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:31:02] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[12:31:02] [Paper Watchdog Thread/ERROR]: 	PID: 28 | Suspended: false | Native: false | State: RUNNABLE
+[12:31:02] [Paper Watchdog Thread/ERROR]: 	Stack:
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.VoxelShapeMergerList.<init>(VoxelShapeMergerList.java:59)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.VoxelShapes.lessCommonMerge(VoxelShapes.java:500)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.VoxelShapes.a(VoxelShapes.java:471)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.VoxelShapes.abstract_c(VoxelShapes.java:259)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.VoxelShapes.c(VoxelShapes.java:228)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EnumBlockSupport$2.a(SourceFile:25)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.BlockBase$BlockData$Cache.<init>(BlockBase.java:781)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.BlockBase$BlockData$Cache.<init>(BlockBase.java:727)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.BlockBase$BlockData.a(BlockBase.java:373)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.Blocks$$Lambda$3162/0x000000080109e1f8.accept(Unknown Source)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.2/java.lang.Iterable.forEach(Unknown Source)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.Blocks.a(SourceFile:892)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.ITagRegistry.bind(SourceFile:24)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.DataPackResources.i(SourceFile:88)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.lambda$reloadServerResources$16(MinecraftServer.java:1894)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$4766/0x000000080161cc18.accept(Unknown Source)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.2/java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.2/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.TickTask.run(SourceFile:18)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1191)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1184)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.reloadServerResources(MinecraftServer.java:1905)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.CommandReload.a(CommandReload.java:16)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.CommandDatapack.a(SourceFile:116)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.CommandDatapack.d(SourceFile:80)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.CommandDatapack$$Lambda$2585/0x0000000801013558.run(Unknown Source)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:176)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.CommandDispatcher.a(CommandDispatcher.java:183)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_16_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:807)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.PlayerConnection.handleCommand(PlayerConnection.java:2066)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.PlayerConnection.c(PlayerConnection.java:1877)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.PlayerConnection.a(PlayerConnection.java:1830)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.PacketPlayInChat.a(PacketPlayInChat.java:47)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.PacketPlayInChat.a(PacketPlayInChat.java:5)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:43)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.PlayerConnectionUtils$$Lambda$4475/0x00000008015c20f8.run(Unknown Source)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.TickTask.run(SourceFile:18)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1191)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1184)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1321)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1000)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:174)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3181/0x00000008010b22f8.run(Unknown Source)
+[12:31:02] [Paper Watchdog Thread/ERROR]: 		java.base@15.0.2/java.lang.Thread.run(Unknown Source)
+[12:31:02] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:31:02] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[12:31:02] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:31:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12211ms or 244 ticks behind
+[12:31:07] [Server thread/INFO]: InterCozmic issued server command: /datapack enable "file/manhunt_v2"
+[12:31:07] [Server thread/INFO]: [Hunter InterCozmic: Enabling data pack [file/manhunt_v2 (world)]]
+[12:31:07] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
+[12:31:09] [Server thread/INFO]: Loaded 7 recipes
+[12:31:21] [Async Chat Thread - #7/INFO]: <InterCozmic> hooooooooooly crap okay
+[12:31:34] [Async Chat Thread - #7/INFO]: <InterCozmic> see you in the overworld where i can cause no trouble
+[12:32:26] [Async Chat Thread - #7/INFO]: <JT_potato> lol
+[12:32:37] [Async Chat Thread - #7/INFO]: <JT_potato> how did that datapack break
+[12:32:44] [Async Chat Thread - #7/INFO]: <JT_potato> because we've cancelled that already
+[12:32:45] [Async Chat Thread - #7/INFO]: <JT_potato> how-
+[12:32:46] [Async Chat Thread - #7/INFO]: <JT_potato> i-
+[12:34:34] [Async Chat Thread - #8/INFO]: <InterCozmic> should we reset the scoreboard
+[12:34:48] [Server thread/INFO]: InterCozmic issued server command: /function mh:start
+[12:34:48] [Server thread/INFO]: [Hunter InterCozmic] Tracking: 
+[12:34:48] [Server thread/INFO]: [Hunter InterCozmic: Executed 38 commands from function 'mh:start']
+[12:35:09] [Server thread/INFO]: JT_potato issued server command: /minecraft:reload
+[12:35:09] [Server thread/INFO]: [Speedrunner JT_potato: Reloading!]
+[12:35:09] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, manhunt_v2
+[12:35:11] [Server thread/INFO]: Loaded 7 recipes
+[12:35:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9043ms or 180 ticks behind
+[12:35:20] [Async Chat Thread - #8/INFO]: <InterCozmic> why do i have no compass
+[12:35:21] [Async Chat Thread - #8/INFO]: <JT_potato> ok time to re-endable the datapack
+[12:35:41] [Async Chat Thread - #8/INFO]: <JT_potato> wait
+[12:35:43] [Server thread/INFO]: JT_potato issued server command: /datapack list
+[12:35:49] [Async Chat Thread - #8/INFO]: <JT_potato> ok
+[12:35:56] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[12:35:56] [Server thread/INFO]: [Speedrunner JT_potato] Tracking: 
+[12:35:56] [Server thread/INFO]: [Speedrunner JT_potato: Executed 38 commands from function 'mh:start']
+[12:36:15] [Async Chat Thread - #8/INFO]: <InterCozmic> cant find lava ._.
+[12:36:15] [Server thread/INFO]: InterCozmic issued server command: /gamemode spectator
+[12:36:15] [Server thread/INFO]: [Hunter InterCozmic: Set own game mode to Spectator Mode]
+[12:36:35] [Server thread/INFO]: InterCozmic issued server command: /tp JT_potato
+[12:36:35] [Server thread/INFO]: [Hunter InterCozmic: Teleported Hunter InterCozmic to Speedrunner JT_potato]
+[12:36:46] [Server thread/INFO]: JT_potato issued server command: /function mh:internal/shuffle
+[12:36:46] [Server thread/INFO]: [Speedrunner JT_potato: Executed 3 commands from function 'mh:internal/shuffle']
+[12:36:51] [Server thread/INFO]: JT_potato issued server command: /function mh:internal/shuffle
+[12:36:51] [Server thread/INFO]: [Hunter JT_potato: Executed 3 commands from function 'mh:internal/shuffle']
+[12:36:51] [Server thread/INFO]: JT_potato issued server command: /function mh:internal/shuffle
+[12:36:51] [Server thread/INFO]: [Speedrunner JT_potato: Executed 3 commands from function 'mh:internal/shuffle']
+[12:36:53] [Server thread/INFO]: JT_potato issued server command: /function mh:internal/shuffle
+[12:36:53] [Server thread/INFO]: [Speedrunner JT_potato: Executed 3 commands from function 'mh:internal/shuffle']
+[12:36:54] [Server thread/INFO]: JT_potato issued server command: /function mh:internal/shuffle
+[12:36:54] [Server thread/INFO]: [Speedrunner JT_potato: Executed 3 commands from function 'mh:internal/shuffle']
+[12:36:55] [Server thread/INFO]: JT_potato issued server command: /function mh:internal/shuffle
+[12:36:55] [Server thread/INFO]: [Speedrunner JT_potato: Executed 3 commands from function 'mh:internal/shuffle']
+[12:36:56] [Server thread/INFO]: JT_potato issued server command: /function mh:internal/shuffle
+[12:36:56] [Server thread/INFO]: [Speedrunner JT_potato: Executed 3 commands from function 'mh:internal/shuffle']
+[12:36:57] [Server thread/INFO]: JT_potato issued server command: /function mh:internal/shuffle
+[12:36:57] [Server thread/INFO]: [Hunter JT_potato: Executed 3 commands from function 'mh:internal/shuffle']
+[12:37:00] [Server thread/INFO]: JT_potato issued server command: /function mh:internal/shuffle
+[12:37:00] [Server thread/INFO]: [Speedrunner JT_potato: Executed 3 commands from function 'mh:internal/shuffle']
+[12:37:01] [Server thread/INFO]: JT_potato issued server command: /function mh:internal/shuffle
+[12:37:01] [Server thread/INFO]: [Speedrunner JT_potato: Executed 3 commands from function 'mh:internal/shuffle']
+[12:37:07] [Async Chat Thread - #8/INFO]: <JT_potato> ok i got scared
+[12:37:17] [Async Chat Thread - #8/INFO]: <JT_potato> i thought we broke minecraft.random
+[12:37:34] [Server thread/INFO]: JT_potato issued server command: /tps
+[12:37:37] [Async Chat Thread - #8/INFO]: <JT_potato> so
+[12:37:49] [Server thread/INFO]: JT_potato issued server command: /function mh:start
+[12:37:49] [Server thread/INFO]: [Hunter JT_potato] Tracking: 
+[12:37:49] [Server thread/INFO]: [Hunter JT_potato: Executed 38 commands from function 'mh:start']
+[12:37:56] [Async Chat Thread - #8/INFO]: <JT_potato> im going to stop the server
+[12:37:58] [Async Chat Thread - #8/INFO]: <InterCozmic> there are no lava pools here
+[12:38:00] [Async Chat Thread - #8/INFO]: <InterCozmic> wait wha
+[12:38:12] [Server thread/INFO]: JT_potato issued server command: /stop
+[12:38:12] [Server thread/INFO]: [Speedrunner JT_potato: Stopping the server]
+[12:38:12] [Server thread/INFO]: Stopping server
+[12:38:12] [Server thread/INFO]: Saving players
+[12:38:12] [Server thread/INFO]: JT_potato lost connection: Server closed
+[12:38:12] [Server thread/INFO]: JT_potato left the game
+[12:38:12] [Server thread/INFO]: InterCozmic lost connection: Server closed
+[12:38:12] [Server thread/INFO]: InterCozmic left the game
+[12:38:13] [Server thread/INFO]: Saving worlds
+[12:38:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:38:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:38:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:38:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:38:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:38:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:38:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:38:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:38:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:38:18] [Server thread/INFO]: Flushing Chunk IO
+[12:38:18] [Server thread/INFO]: Closing Thread Pool
+[12:38:18] [Server thread/INFO]: Closing Server
