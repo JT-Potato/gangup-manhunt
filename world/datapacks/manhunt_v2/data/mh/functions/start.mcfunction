@@ -23,11 +23,11 @@ tellraw @a[team=hunters] {"text": "Your compass automatically points to the near
 tellraw @a {"text":"Manhunt starts now!", "color": "green"}
 tag @p[team=speedrunners] add tracked
 execute as @r at @s run spawnpoint @a ~ ~ ~
-schedule function mh:internal/setcompass 2t
+function mh:internal/setcompass
 say Tracking: @a[tag=tracked]
 
 #Populate scoreboard
-scoreboard players add @a teams 100
+scoreboard players set @a teams 10
 tellraw @a {"text": "Debug: Finished populating scoreboard", "color": "yellow"}
 
 #Start game functions
