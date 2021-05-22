@@ -4,6 +4,8 @@ tellraw @a {"text":"Thanks for using JT potato's gangup manhunt datapack. We'd l
 #Cleanup from the server start/previous manhunt
 function mh:internal/clean_from_previous
 time set day
+gamerule doImmediateRespawn true
+gamerule keepInventory true
 
 #Add Teams
 team add speedrunners
@@ -30,8 +32,12 @@ function mh:internal/shuffle
 tellraw @a {"text":"Manhunt starts now!", "color": "green"}
 
 #Give hunters compasses, and set the person to be tracked
-schedule function mh:internal/makecompass 40t
+schedule function mh:internal/compass/makecompass 40t
 
 #Start game functions
 schedule function mh:internal/checkdeath 2t
 schedule function mh:internal/checkvictory 2t
+function mh:internal/easynether
+
+#30 second truce - hunters cant attack
+effect give @a[team=hunters] weakness 30 100
