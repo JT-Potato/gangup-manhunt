@@ -41,3 +41,6 @@ function mh:internal/easynether
 
 #30 second truce - hunters cant attack
 effect give @a[team=hunters] weakness 30 100
+
+#30 minutes of prolonged combat
+effect give @a resistance 1800 2
