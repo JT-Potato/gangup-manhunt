@@ -17,7 +17,6 @@ schedule clear mh:internal/checkdeath
 schedule clear mh:internal/checkvictory
 schedule clear mh:internal/compass/setcompass
 schedule clear mh:internal/assignteams
-schedule clear mh:internal/shuffle
 schedule clear mh:internal/easynether
 schedule clear mh:internal/compass/compassinfoflash
 schedule clear mh:internal/compass/compassbodge
@@ -26,7 +25,6 @@ schedule clear mh:internal/checkdeath
 schedule clear mh:internal/checkvictory
 schedule clear mh:internal/compass/setcompass
 schedule clear mh:internal/assignteams
-schedule clear mh:internal/shuffle
 schedule clear mh:internal/easynether
 schedule clear mh:internal/compass/compassinfoflash
 schedule clear mh:internal/compass/compassbodge
