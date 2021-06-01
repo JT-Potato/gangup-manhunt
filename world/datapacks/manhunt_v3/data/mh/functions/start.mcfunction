@@ -41,3 +41,6 @@ function mh:internal/easynether
 
 #30 second truce - hunters cant attack
 effect give @a[team=hunters] weakness 2 100
+
+#Timer
+schedule function mh:internal/timer/countdown/5mins 3300s

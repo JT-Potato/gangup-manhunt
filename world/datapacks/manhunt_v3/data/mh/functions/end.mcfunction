@@ -12,7 +12,7 @@ team modify thanksForPlaying prefix {"text":"Thanks for "}
 team join thanksForPlaying playing!
 scoreboard players add playing! teams 1
 
-#Clears every schedule - twice to be sure
+#Clears every schedule
 schedule clear mh:internal/checkdeath
 schedule clear mh:internal/checkvictory
 schedule clear mh:internal/compass/setcompass
@@ -20,11 +20,5 @@ schedule clear mh:internal/assignteams
 schedule clear mh:internal/easynether
 schedule clear mh:internal/compass/compassinfoflash
 schedule clear mh:internal/compass/compassbodge
-
-schedule clear mh:internal/checkdeath
-schedule clear mh:internal/checkvictory
-schedule clear mh:internal/compass/setcompass
-schedule clear mh:internal/assignteams
-schedule clear mh:internal/easynether
-schedule clear mh:internal/compass/compassinfoflash
-schedule clear mh:internal/compass/compassbodge
+schedule clear mh:internal/timer/countdown/5mins
+schedule clear mh:internal/timer/countdown/10
