@@ -28,7 +28,6 @@ scoreboard players set @a teams 10
 tellraw @a {"text": "Debug: Finished populating scoreboard", "color": "yellow"}
 
 #Starts the shuffling clock (happens every 20 mins)
-function mh:internal/shuffle
 tellraw @a {"text":"Manhunt starts now!", "color": "green"}
 
 #Give hunters compasses, and set the person to be tracked
