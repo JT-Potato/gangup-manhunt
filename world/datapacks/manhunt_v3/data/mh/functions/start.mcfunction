@@ -4,7 +4,6 @@ tellraw @a {"text":"Thanks for using JT potato's gangup manhunt datapack. We'd l
 #Cleanup from the server start/previous manhunt
 function mh:internal/clean_from_previous
 time set day
-gamerule doImmediateRespawn true
 gamerule keepInventory true
 
 #Add Teams
